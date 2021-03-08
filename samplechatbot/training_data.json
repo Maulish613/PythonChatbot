@@ -1,0 +1,1159 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byee"
+      },
+      {
+        "intent": "goodbye",
+        "text": "babyee"
+      },
+      {
+        "intent": "faq",
+        "text": "what is faq"
+      },
+      {
+        "intent": "faq",
+        "text": "details of faq"
+      },
+      {
+        "intent": "greet",
+        "text": "help"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byeee"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye byee"
+      },
+      {
+        "intent": "faq",
+        "text": "faq details"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bie"
+      },
+      {
+        "intent": "greet",
+        "text": "hie"
+      },
+      {
+        "intent": "goodbye",
+        "text": "babye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "babye"
+      },
+      {
+        "intent": "faq",
+        "text": "faq"
+      },
+      {
+        "intent": "greet",
+        "text": "hiie"
+      },
+      {
+        "intent": "greet",
+        "text": "hey r u there"
+      },
+      {
+        "intent": "greet",
+        "text": "anyone there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "going off"
+      },
+      {
+        "intent": "goodbye",
+        "text": "will back soon"
+      },
+      {
+        "intent": "thanks",
+        "text": "happy to see this"
+      },
+      {
+        "intent": "thanks",
+        "text": "ohh cool "
+      },
+      {
+        "intent": "thanks",
+        "text": "that's good "
+      },
+      {
+        "intent": "information",
+        "text": "what service you provide"
+      },
+      {
+        "intent": "information",
+        "text": "what type of services you provide"
+      },
+      {
+        "intent": "information",
+        "text": "can i see service list"
+      },
+      {
+        "intent": "thanks",
+        "text": "nice services"
+      },
+      {
+        "intent": "thanks",
+        "text": "cool"
+      },
+      {
+        "intent": "information",
+        "text": "service list"
+      },
+      {
+        "intent": "information",
+        "text": "list of services"
+      },
+      {
+        "intent": "greet",
+        "text": "hai"
+      },
+      {
+        "intent": "greet",
+        "text": "haiie"
+      },
+      {
+        "intent": "thanks",
+        "text": "nice services list"
+      },
+      {
+        "intent": "greet",
+        "text": "haii"
+      },
+      {
+        "intent": "greet",
+        "text": "haiee"
+      },
+      {
+        "intent": "greet",
+        "text": "haii"
+      },
+      {
+        "intent": "contact",
+        "text": "what else you provide"
+      },
+      {
+        "intent": "contact",
+        "text": "anything else you provide"
+      },
+      {
+        "intent": "contact",
+        "text": "anything else"
+      },
+      {
+        "intent": "contact",
+        "text": "what other things you provide"
+      },
+      {
+        "intent": "contact",
+        "text": "what other things "
+      },
+      {
+        "intent": "feedback",
+        "text": "what is feedback"
+      },
+      {
+        "intent": "feedback",
+        "text": "details about feedback "
+      },
+      {
+        "intent": "feedback",
+        "text": "can you show the details about feedback"
+      },
+      {
+        "intent": "feedback",
+        "text": "where feedback is relevant"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "feedback",
+        "text": "feedback"
+      },
+      {
+        "intent": "feedback",
+        "text": "about feedback"
+      },
+      {
+        "intent": "feedback",
+        "text": "wht is feedback"
+      },
+      {
+        "intent": "goodbye",
+        "text": "soon"
+      },
+      {
+        "intent": "helphelper",
+        "text": "helphelper"
+      },
+      {
+        "intent": "helphelper",
+        "text": "what is helphelper"
+      },
+      {
+        "intent": "information",
+        "text": "what service provide you in helphelper"
+      },
+      {
+        "intent": "helphelper",
+        "text": "help helper"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "walkthrough"
+      },
+      {
+        "intent": "helphelper",
+        "text": "tell me about this site"
+      },
+      {
+        "intent": "helphelper",
+        "text": "about helphelper"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "about walk through"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "what is walk through"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "how to add walk through"
+      },
+      {
+        "intent": "information",
+        "text": "can you give me list "
+      },
+      {
+        "intent": "information",
+        "text": "can you give me service list"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "what is help editor"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "helpeditor"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "can you tell me about help editor"
+      },
+      {
+        "intent": "helphelper",
+        "text": "tell me about helphelper"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "help editor"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "what is help editor"
+      },
+      {
+        "intent": "add_faq",
+        "text": "how i add faq"
+      },
+      {
+        "intent": "add_faq",
+        "text": "how i added faq services"
+      },
+      {
+        "intent": "add_helpeditor",
+        "text": "how to add helpeditor service "
+      },
+      {
+        "intent": "add_helpeditor",
+        "text": "how i added helpeditor service"
+      },
+      {
+        "intent": "add_feedback",
+        "text": "how to add feedback service"
+      },
+      {
+        "intent": "add_feedback",
+        "text": "how i add feedback service?"
+      },
+      {
+        "intent": "use_helphelper",
+        "text": "how helphelper service useful"
+      },
+      {
+        "intent": "use_helphelper",
+        "text": "how to use of helphelper service "
+      },
+      {
+        "intent": "use_helphelper",
+        "text": "what is importance of the helphelper"
+      },
+      {
+        "intent": "add_feedback",
+        "text": "how i add feedback"
+      },
+      {
+        "intent": "add_faq",
+        "text": "how i add faq"
+      },
+      {
+        "intent": "add_walkthrough",
+        "text": "how i add walkthrough "
+      },
+      {
+        "intent": "add_walkthrough",
+        "text": "how to add walkthrough"
+      },
+      {
+        "intent": "add_walkthrough",
+        "text": "how to add walkthrough service "
+      },
+      {
+        "intent": "add_helpeditor",
+        "text": "how to add helpeditor"
+      },
+      {
+        "intent": "use_helphelper",
+        "text": "how helphelper useful"
+      },
+      {
+        "intent": "add_faq",
+        "text": "how to add faq moudle"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "what is walkthrough"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "what is helpeditor module"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "what about helpeditor"
+      },
+      {
+        "intent": "use_helphelper",
+        "text": "what are the benefits to use this services?"
+      },
+      {
+        "intent": "use_helphelper",
+        "text": "what are the benefits to use helphelper services?"
+      },
+      {
+        "intent": "feedback",
+        "text": "feedback benefits"
+      },
+      {
+        "intent": "feedback",
+        "text": "what are the benefits to use feedback services?"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "what are the benefits to use walkthrough services?"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "walkthrough benefits"
+      },
+      {
+        "intent": "information",
+        "text": "what features you provided"
+      },
+      {
+        "intent": "information",
+        "text": "can i show feature list"
+      },
+      {
+        "intent": "subscription",
+        "text": "what is subscription plan"
+      },
+      {
+        "intent": "subscription_subscribe",
+        "text": "how can i subscribe package"
+      },
+      {
+        "intent": "subscription",
+        "text": "what are the plans of full subscription"
+      },
+      {
+        "intent": "subscription",
+        "text": "what is the plan to subscribe feedback module"
+      },
+      {
+        "intent": "subscription",
+        "text": "what is the plan of walkthrough module"
+      },
+      {
+        "intent": "subscription",
+        "text": "subscription plan of the helphelper"
+      },
+      {
+        "intent": "subscription",
+        "text": "subscription plan of the feedback module"
+      },
+      {
+        "intent": "subscription",
+        "text": "subscription plan of the faq module"
+      },
+      {
+        "intent": "subscription",
+        "text": "subscription plan of the walkthrough"
+      },
+      {
+        "intent": "subscription",
+        "text": "what is the plan of faq module"
+      },
+      {
+        "intent": "subscription_subscribe",
+        "text": "what are the payment methods"
+      },
+      {
+        "intent": "subscription_subscribe",
+        "text": "how can i pay "
+      },
+      {
+        "intent": "subscription_subscribe",
+        "text": "what are the methods to pay "
+      },
+      {
+        "intent": "subscription_subscribe",
+        "text": "which payment methods you are using "
+      },
+      {
+        "intent": "subscription_down_charge",
+        "text": "what will be the charges for downgrade the service packages"
+      },
+      {
+        "intent": "subscription_up",
+        "text": "what is benefit for me to upgrade my current plan"
+      },
+      {
+        "intent": "subscription_up",
+        "text": "if i want to upgrade my plans?"
+      },
+      {
+        "intent": "feedback_feature",
+        "text": "what are the feature of feedback"
+      },
+      {
+        "intent": "feedback_feature",
+        "text": "what are the feature of feedback module"
+      },
+      {
+        "intent": "walkthrough_feature",
+        "text": "what are the feature of walkthrough module"
+      },
+      {
+        "intent": "walkthrough_feature",
+        "text": "what are the feature of walkthrough"
+      },
+      {
+        "intent": "subscription",
+        "text": "what is the plan to subscribe helpeditor module"
+      },
+      {
+        "intent": "subscription",
+        "text": "what is the plan of helpeditor module"
+      },
+      {
+        "intent": "feedback_feature",
+        "text": "feature of the feedback"
+      },
+      {
+        "intent": "walkthrough_feature",
+        "text": "feature of walkthrough"
+      },
+      {
+        "intent": "faq_feature",
+        "text": "feature of faq"
+      },
+      {
+        "intent": "faq_feature",
+        "text": "what are the feature of walkthrough"
+      },
+      {
+        "intent": "faq_feature",
+        "text": "what are the feature of walkthrough module "
+      },
+      {
+        "intent": "feedback_feature",
+        "text": "what feature you are providing under feedback module"
+      },
+      {
+        "intent": "faq_feature",
+        "text": "what feature you are providing under faq module"
+      },
+      {
+        "intent": "walkthrough_feature",
+        "text": "what feature you are providing under walkthrough module"
+      },
+      {
+        "intent": "helpeditor_feature",
+        "text": "what are the feature of helpeditor"
+      },
+      {
+        "intent": "helpeditor_feature",
+        "text": "feature of helpeditor"
+      },
+      {
+        "intent": "helpeditor_feature",
+        "text": "what feature you are providing under helpeditor module"
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "how i disable my plan"
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "how to disable my plan "
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "i want to disable my subscription plan"
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "disable my subscription plan "
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "I want to disable my current subscription plan"
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "I want to disable my feedback subscription plan how can i do ?"
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "I want to disable my helpeditor subscription plan how can i do ?"
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "I want to disable my faq subscription plan how can i do ?"
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "I want to disable my walkthrough subscription plan how can i do ?"
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "disable my all subscription plan "
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "disable my feedback subscription plan "
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "disable my faq subscription plan "
+      },
+      {
+        "intent": "subscription_edit",
+        "text": "disable my helpeditor subscription plan "
+      },
+      {
+        "intent": "subscription_down_charge",
+        "text": "how much charges applied for downgrade the subscription plan"
+      },
+      {
+        "intent": "subscription_down_charge",
+        "text": "charges for downgrade the subscription plan"
+      },
+      {
+        "intent": "subscription_subscribe",
+        "text": "what are payment methods you use?"
+      },
+      {
+        "intent": "add_feedback",
+        "text": "how can i add feedback module "
+      },
+      {
+        "intent": "card_detect",
+        "text": "What forms of payment can I use with this online service"
+      },
+      {
+        "intent": "card_detect",
+        "text": "What types of card you use"
+      },
+      {
+        "intent": "card_detect",
+        "text": "What cards to you accept"
+      },
+      {
+        "intent": "card_detect",
+        "text": "What cards to you accept for payment"
+      },
+      {
+        "intent": "card_detect",
+        "text": "types of card you use"
+      },
+      {
+        "intent": "card_detect",
+        "text": "which types of cards you accept for payments?"
+      },
+      {
+        "intent": "greetings",
+        "text": "good morning"
+      },
+      {
+        "intent": "greetings",
+        "text": "Good morning!"
+      },
+      {
+        "intent": "card_detect",
+        "text": "which cards you use to pay"
+      },
+      {
+        "intent": "feedback_feature",
+        "text": "features of feedback module?"
+      },
+      {
+        "intent": "greet",
+        "text": "how can you help me "
+      },
+      {
+        "intent": "add_faq",
+        "text": "how can you help me in adding faq"
+      },
+      {
+        "intent": "add_feedback",
+        "text": "how can you help me to add feedback"
+      },
+      {
+        "intent": "add_helpeditor",
+        "text": "how can you help me to adding helpeditor"
+      },
+      {
+        "intent": "add_walkthrough",
+        "text": "how can you help me to adding walkthrough"
+      },
+      {
+        "intent": "helphelper",
+        "text": "how can you help me ?"
+      },
+      {
+        "intent": "add_faq",
+        "text": "how can you help me to add faq module?"
+      },
+      {
+        "intent": "add_faq",
+        "text": "how can you help me to add faq"
+      },
+      {
+        "intent": "add_walkthrough",
+        "text": "how can you help me to add walkthrough module?"
+      },
+      {
+        "intent": "affirm_up",
+        "text": "it is possible to upgrade my current plans?"
+      },
+      {
+        "intent": "affirm_up",
+        "text": "it is possible to upgrade plans?"
+      },
+      {
+        "intent": "affirm_up",
+        "text": "any possibility for upgrade plans?"
+      },
+      {
+        "intent": "affirm_trial",
+        "text": "Is there any free trial period?"
+      },
+      {
+        "intent": "affirm_trial",
+        "text": "what is about free trial?"
+      },
+      {
+        "intent": "affirm_trial",
+        "text": "What is for new member"
+      },
+      {
+        "intent": "affirm_trial",
+        "text": "any offer for new member?"
+      },
+      {
+        "intent": "affirm_trial",
+        "text": "can you give any offer for new member"
+      },
+      {
+        "intent": "faq",
+        "text": "why i subscribe faq module"
+      },
+      {
+        "intent": "feedback",
+        "text": "why i subscribe feedback module"
+      },
+      {
+        "intent": "walkthrough",
+        "text": " why i subscribe walkthrough module"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "why i subscribe helpeditor module"
+      },
+      {
+        "intent": "helphelper",
+        "text": "why i subscribe?"
+      },
+      {
+        "intent": "wallet",
+        "text": "do you use any wallet?"
+      },
+      {
+        "intent": "wallet",
+        "text": "are you use any wallet for payment?"
+      },
+      {
+        "intent": "wallet",
+        "text": "would you accept payment from wallets?"
+      },
+      {
+        "intent": "wallet",
+        "text": "which wallet you use for payment"
+      },
+      {
+        "intent": "wallet",
+        "text": "what are payment wallets available for payment"
+      },
+      {
+        "intent": "wallet",
+        "text": "are you accept any wallet?"
+      },
+      {
+        "intent": "information",
+        "text": "what are you doing ?"
+      },
+      {
+        "intent": "offers",
+        "text": "what offers you provide ?"
+      },
+      {
+        "intent": "offers",
+        "text": "can you give any discount for subscription."
+      },
+      {
+        "intent": "offers",
+        "text": "can you give me any offer to subscribe these service"
+      },
+      {
+        "intent": "offers",
+        "text": "what is the offer to subscribe all the services"
+      },
+      {
+        "intent": "offers",
+        "text": "any offers for subscribe faq module"
+      },
+      {
+        "intent": "offers",
+        "text": "what are the offers of Faq to subscribe"
+      },
+      {
+        "intent": "offers",
+        "text": "what are the subscription offer?"
+      },
+      {
+        "intent": "offers",
+        "text": "any discount for me?"
+      },
+      {
+        "intent": "offers",
+        "text": "which offers you provide? "
+      },
+      {
+        "intent": "offers",
+        "text": "any discount you give "
+      },
+      {
+        "intent": "offers",
+        "text": "any offers for subscribe this service"
+      },
+      {
+        "intent": "offers",
+        "text": "what are the offers of feedback subscribe"
+      },
+      {
+        "intent": "offers",
+        "text": "any offers for subscribe feedback module"
+      },
+      {
+        "intent": "offers",
+        "text": "any offers for subscribe walkthrogh module"
+      },
+      {
+        "intent": "offers",
+        "text": "any offers for subscribe helpeditor module"
+      },
+      {
+        "intent": "offers",
+        "text": "what are the offers of helpeditor to subscribe"
+      },
+      {
+        "intent": "offers",
+        "text": "what are the offers of walkthrough to subscribe"
+      },
+      {
+        "intent": "changes",
+        "text": "can I change my Module"
+      },
+      {
+        "intent": "changes",
+        "text": "can i customize my subscribe module"
+      },
+      {
+        "intent": "changes",
+        "text": "can i change your services?"
+      },
+      {
+        "intent": "changes",
+        "text": "Can I change feedback module?"
+      },
+      {
+        "intent": "changes",
+        "text": "Can I change walkthrough module?"
+      },
+      {
+        "intent": "changes",
+        "text": "Can I change faq module?"
+      },
+      {
+        "intent": "changes",
+        "text": "Can I change helpeditor module?"
+      },
+      {
+        "intent": "changes",
+        "text": "Should i able to change layout of services?"
+      },
+      {
+        "intent": "changes",
+        "text": "Can i change functionality of the services?    "
+      },
+      {
+        "intent": "changes",
+        "text": "Can i change functionality of the services?    "
+      },
+      {
+        "intent": "changes",
+        "text": "I can change services?"
+      },
+      {
+        "intent": "changes",
+        "text": "I can change walkthrough service?"
+      },
+      {
+        "intent": "changes",
+        "text": "I can change helpeditor service?"
+      },
+      {
+        "intent": "changes",
+        "text": "I can change feedback service?"
+      },
+      {
+        "intent": "changes",
+        "text": "I can change Faq service?"
+      },
+      {
+        "intent": "greetings",
+        "text": "good morning "
+      },
+      {
+        "intent": "cancel",
+        "text": "how can i cancel my service?"
+      },
+      {
+        "intent": "cancel",
+        "text": "how do i cancel my service"
+      },
+      {
+        "intent": "cancel",
+        "text": "how do i cancel particular module"
+      },
+      {
+        "intent": "cancel",
+        "text": "how can i cancel feedback module"
+      },
+      {
+        "intent": "cancel",
+        "text": "how can i cancel feedback service"
+      },
+      {
+        "intent": "cancel",
+        "text": "how can i cancel helpeditor module"
+      },
+      {
+        "intent": "cancel",
+        "text": "how can i cancel helpeditor service"
+      },
+      {
+        "intent": "cancel",
+        "text": "how can i cancel faq module"
+      },
+      {
+        "intent": "cancel",
+        "text": "how can i cancel faq service"
+      },
+      {
+        "intent": "cancel",
+        "text": "how can i cancel walkthrough module"
+      },
+      {
+        "intent": "cancel",
+        "text": "how can i cancel walkthrough service"
+      },
+      {
+        "intent": "contact",
+        "text": "how can i get more details"
+      },
+      {
+        "intent": "affirm_cancel",
+        "text": "can i cancel my services?"
+      },
+      {
+        "intent": "affirm_cancel",
+        "text": "Can i cancel helphelper subscription"
+      },
+      {
+        "intent": "affirm_cancel",
+        "text": "if i don't like it can i cancel it anytime?"
+      },
+      {
+        "intent": "affirm_cancel",
+        "text": "Can i cancel my subscription"
+      },
+      {
+        "intent": "helphelper",
+        "text": "what helphelper do?"
+      },
+      {
+        "intent": "feedback",
+        "text": "what feedback do? "
+      },
+      {
+        "intent": "faq",
+        "text": "what faq do?"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "what walkthrough do?"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "what helpeditor do?"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "what helpeditor do?"
+      },
+      {
+        "intent": "subscription",
+        "text": "How much does it cost"
+      },
+      {
+        "intent": "helphelper",
+        "text": "How does HelpHelper work"
+      },
+      {
+        "intent": "subscription",
+        "text": "What does the software cost?"
+      },
+      {
+        "intent": "card_detect",
+        "text": "what forms of payment does HELPHELPER take"
+      },
+      {
+        "intent": "subscription_subscribe",
+        "text": "what forms of payment does you take?"
+      },
+      {
+        "intent": "subscription_subscribe",
+        "text": "what forms of payment does HELPHELPER take"
+      },
+      {
+        "intent": "offers",
+        "text": "do you offer any discount"
+      },
+      {
+        "intent": "payment_terms",
+        "text": "can show me the payment terms?"
+      },
+      {
+        "intent": "payment_terms",
+        "text": "what is your payment terms?"
+      },
+      {
+        "intent": "payment_terms",
+        "text": "what about payment terms"
+      },
+      {
+        "intent": "payment_terms",
+        "text": "What are the payment terms"
+      },
+      {
+        "intent": "subscription_expire",
+        "text": "What happens to my data when my subscription expires?"
+      },
+      {
+        "intent": "subscription_expire",
+        "text": "my data should be there after free trial?"
+      },
+      {
+        "intent": "subscription_expire",
+        "text": "my data should be there after expires my subscription?"
+      },
+      {
+        "intent": "information",
+        "text": "What type of support is included with this Service"
+      },
+      {
+        "intent": "information",
+        "text": "which type of support you provide?"
+      },
+      {
+        "intent": "information",
+        "text": "what support you provide?"
+      },
+      {
+        "intent": "affirm_expire",
+        "text": "What happens when my trial subscription period expires"
+      },
+      {
+        "intent": "affirm_expire",
+        "text": "if my trial subscription expires can i use it or not ?"
+      },
+      {
+        "intent": "affirm_expire",
+        "text": "what will happens after free trial?"
+      },
+      {
+        "intent": "affirm_expire",
+        "text": "can i extend my free trial?"
+      },
+      {
+        "intent": "affirm_expire",
+        "text": "what happens after the trail ends?"
+      },
+      {
+        "intent": "greetings",
+        "text": "hey! good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "can you help me?"
+      },
+      {
+        "intent": "greet",
+        "text": "how would you help me?"
+      },
+      {
+        "intent": "payment_terms",
+        "text": "what are the payment terms?"
+      },
+      {
+        "intent": "information",
+        "text": "can you give me information about your services?"
+      },
+      {
+        "intent": "changes",
+        "text": "how can  i change my module?"
+      },
+      {
+        "intent": "information",
+        "text": "what are the services you provides?"
+      },
+      {
+        "intent": "contact",
+        "text": "can i get more details?"
+      },
+      {
+        "intent": "information",
+        "text": "what you can do?"
+      },
+      {
+        "intent": "helphelper",
+        "text": "what is the meaning of help helper"
+      },
+      {
+        "intent": "faq",
+        "text": "what is the meaning of Faq"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "what is the meaning of help editor"
+      },
+      {
+        "intent": "feedback",
+        "text": "what is the meaning of feedback"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "what is the meaning of walk through"
+      },
+      {
+        "intent": "faq",
+        "text": "what is mean of faq"
+      },
+      {
+        "intent": "helpeditor",
+        "text": "what is mean of help editor"
+      },
+      {
+        "intent": "helphelper",
+        "text": "what is mean of helphelper"
+      },
+      {
+        "intent": "feedback",
+        "text": "what is mean of feedback"
+      },
+      {
+        "intent": "walkthrough",
+        "text": "what is mean of walk through"
+      },
+      {
+        "intent": "contact",
+        "text": "can i get more information about you service"
+      },
+      {
+        "intent": "contact",
+        "text": "can i get more details about your service"
+      },
+      {
+        "intent":"helphelper",
+        "text":"what is your name"
+      },
+      {
+       "intent":"helphelper",
+       "text":"What is your work" 
+      }
+
+
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

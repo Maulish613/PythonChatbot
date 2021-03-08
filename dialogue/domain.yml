@@ -1,0 +1,210 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_faq
+- utter_goodbye
+- utter_thanks
+- utter_information
+- utter_contact
+- utter_feedback
+- utter_helphelper
+- utter_walkthrough
+- utter_helpeditor
+- utter_add_helpeditor
+- utter_add_faq
+- utter_add_feedback
+- utter_use_helphelper
+- utter_add_walkthrough
+- utter_subscription_subscribe
+- utter_subscription_down_charge
+- utter_subscription_up
+- utter_feedback_feature
+- utter_faq_feature
+- utter_walkthrough_feature
+- utter_helpeditor_feature
+- utter_subscription_edit
+- utter_subscription
+- utter_card_detect
+- utter_greetings
+- utter_affirm_up
+- utter_affirm_trial
+- utter_wallet
+- utter_offers
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- faq:
+    use_entities: true
+- greetings:
+    use_entities: true
+- information:
+    use_entities: true
+- thanks:
+    use_entities: true
+- contact:
+    use_entities: true
+- feedback:
+    use_entities: true
+- helphelper:
+    use_entities: true
+- walkthrough:
+    use_entities: true
+- helpeditor:
+    use_entities: true
+- add_faq:
+    use_entities: true
+- add_feedback:
+    use_entities: true
+- add_helpeditor:
+    use_entities: true
+- add_walkthrough:
+    use_entities: true
+- use_helphelper:
+    use_entities: true
+- faq_feature:
+    use_entities: true
+- feedback_feature:
+    use_entities: true
+- walkthrough_feature:
+    use_entities: true
+- helpeditor_feature:
+    use_entities: true
+- subscription:
+    use_entities: true
+- subscription_down_charge:
+    use_entities: true
+- subscription_up:
+    use_entities: true
+- subscription_subscribe:
+    use_entities: true
+- subscription_edit:
+    use_entities: true
+- card_detect:
+    use_entities: true
+- affirm_up:
+    use_entities: true
+- affirm_trial:
+    use_entities: true
+- wallet:
+    use_entities: true
+- offers:
+    use_entities: true
+slots: {}
+templates:
+  utter_add_faq:
+  - text: 'First of all you have to register your self in our service and then subscribe
+      the faq package after that you are able to use it. '
+  utter_add_feedback:
+  - text: First of all you have to register your self in our service and then subscribe
+      the feedback package after that you are able to use it.
+  utter_add_helpeditor:
+  - text: First of all you have to register your self in our service and then subscribe
+      the helpeditor package after that you are able to use it.
+  utter_add_walkthrough:
+  - text: First of all you have to register your self in our service and then subscribe
+      the walkthrough package after that you are able to use it.
+  utter_affirm_trial:
+  - text: yes! we provide free trial of 30 days for new customer.
+  utter_affirm_up:
+  - text: Yes! you can. Just go your profile page and Click on edit service plan and
+      do your change according your need.
+  utter_card_detect:
+  - text: Our credit card processing vendor enables us to accept both MasterCard and
+      Visa credit and debit cards.
+  utter_contact:
+  - text: For more information you can contact our marketing team.
+  utter_faq:
+  - text: ' The FAQ page is the primary way to help people visiting your website to
+      get the solution of their problems or doubts, which may visitor, may be face
+      anytime. Frequently asked question page (FAQ pages) help your business briefly
+      and appropriately respond to the needs of your customer.'
+  utter_faq_feature:
+  - text: We provide one FAQ module to our Customers. This FAQ module has some basic
+      and some advanced functionality. By using this module any Product User of the
+      website of Product Owner which subscribe this service, can ask the question,
+      he can search the frequent solution for his problem and also he can suggest
+      modifications to the questions or ask the Product Owner. In addition, if Product
+      Owner finds that any question is very much helpful for other users then he can
+      directly add that Question-answer in his FAQ list so that other users can see
+      that and it may helpful for his problems he found
+  utter_feedback:
+  - text: Feedback module  will provide the functionality of taking feedbacks from
+      user as well as it will also be going to reply the feedback of user. It will
+      also categories feedback given by user according to the type like complain,
+      appreciate, review, suggestion and so on so which will be going to helpful to
+      other user next time
+  utter_feedback_feature:
+  - text: We provide one Feedback module to our Customers. End user can give feedback
+      to the product owner that how they are satisfied with the product or not.They
+      can ask doubts or question regarding product. And product owner can read this
+      as well as reply to them.They also attach local files and images.
+  utter_goodbye:
+  - text: GoodBye
+  utter_greet:
+  - text: hello how can i help you!!!
+  utter_greetings:
+  - text: Hey! Very Good Morning. Have a nice day!!
+  utter_helpeditor:
+  - text: The main purpose of this service is to provide help. This service is SAAS
+      so anyone can buy our service and can use for their website. Users need to register
+      themselves for one time for the using the service.
+  utter_helpeditor_feature:
+  - text: The help editor will contain tooltip which is like a small hover box which
+      will guide the users according to their requirements. There is also a richtextbox
+      in the help editor where user can write their requirements. In these editor
+      the different type of the help will be provided  in different pages. The users
+      who subscribe our service will be able to edit the module according to their
+      requirements.
+  utter_helphelper:
+  - text: It is a Web base service which will be helpful for any web-application.
+      This service will be helpful and easy to use for users. This service is user-friendly
+      so that the site owner can make changes regarding the web application.
+  utter_information:
+  - text: 'We are providing mainly these types of services right now. 1)Walkthrough
+      2)Feedback 3)Help Editor 4)FAQ '
+  utter_offers:
+  - text: 'Sorry! We are not providing any offers for you. '
+  utter_subscription:
+  - text: 'There are two types of plans 1) Monthly and 2) Year. 1)Monthly : 1)Feedback
+      Module : -> 42$ , 2)Walkthrough Module : -> 45$, 3) FAQ Module : -> 24$, 4)
+      Helpeditor : -> 30$. 2) Yearly : 1)Feedback Module : -> 420$ , 2)Walkthrough
+      Module : -> 450$, 3) FAQ Module : -> 240$, 4) Helpeditor : -> 300$. '
+  utter_subscription_down_charge:
+  - text: 'Not Display Now '
+  utter_subscription_edit:
+  - text: If You want to Edit your subscription modules then you have to go your profile
+      page and click on manage modules and after that you edit or disable you modle
+      package from your services.
+  utter_subscription_subscribe:
+  - text: 'There are two types of Payment through you subscribe our packages. 1)Internation
+      : Using Stripe and 2)National: Using Paytm, Bank.'
+  utter_subscription_up:
+  - text: There are some benefits to you if you want to upgrade your current Plans.
+  utter_thanks:
+  - text: Thanks!!!
+  utter_use_helphelper:
+  - text: This system providing help as a helper module. It is a Web base service
+      which will be helpful for any web-application. This service will be helpful
+      and easy to use for users. This service is user-friendly so that the site owner
+      can make changes regarding the web application which he/she owns. By using this
+      service users can save their time to develop their web applications.
+  utter_walkthrough:
+  - text: 'This module will used to guide the user about the website. This feature
+      will be useful for the new users if some users are visiting our website for
+      the first time. Walkthrough is mainly a module which will show a message about
+      the particular part. First let’s divide it into two parts: Owner-side and User-side.'
+  utter_walkthrough_feature:
+  - text: When any site owner add this service to his website he need to go to every
+      part of the page. By clicking on any part, walkthrough will be open. It will
+      tell to add the message and also tell us how to go to the next part i.e., either
+      by mouse click.
+  utter_wallet:
+  - text: 'Yes! We are accepting Payment through wallets. We currently use only Paytm,
+      Mobikwik, Freecharge, Ola Money, Jio Money '

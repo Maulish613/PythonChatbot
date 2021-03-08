@@ -1,0 +1,99 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "utter_information": {
+      "slots": []
+    },
+    "utter_add_faq": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_helpeditor_feature": {
+      "slots": []
+    },
+    "utter_greetings": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_helpeditor": {
+      "slots": []
+    },
+    "utter_wallet": {
+      "slots": []
+    },
+    "utter_walkthrough_feature": {
+      "slots": []
+    },
+    "utter_walkthrough": {
+      "slots": []
+    },
+    "utter_contact": {
+      "slots": []
+    },
+    "utter_feedback_feature": {
+      "slots": []
+    },
+    "utter_faq_feature": {
+      "slots": []
+    },
+    "utter_helphelper": {
+      "slots": []
+    },
+    "utter_faq": {
+      "slots": []
+    },
+    "utter_subscription": {
+      "slots": []
+    },
+    "utter_subscription_down_charge": {
+      "slots": []
+    },
+    "utter_subscription_edit": {
+      "slots": []
+    },
+    "utter_add_helpeditor": {
+      "slots": []
+    },
+    "action_default_ask_rephrase": {
+      "slots": []
+    },
+    "utter_use_helphelper": {
+      "slots": []
+    },
+    "utter_subscription_subscribe": {
+      "slots": []
+    },
+    "utter_affirm_up": {
+      "slots": []
+    },
+    "utter_add_feedback": {
+      "slots": []
+    },
+    "utter_affirm_trial": {
+      "slots": []
+    },
+    "utter_offers": {
+      "slots": []
+    }
+  },
+  "python": "3.6.5",
+  "max_histories": [
+    5,
+    5
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ],
+  "trained_at": "20190331-181623",
+  "rasa_core": "0.13.2",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.3"
+}
